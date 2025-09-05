@@ -2,120 +2,96 @@
   type: map
   contents:
     - name: Full Name
-      value: Nils Andreas Herrmann de Alba
-    - name: Nationality
-      value: Mexican
-    - name: E-mail
-      value: nils_herrmann@outlook.de
-    - name: Phone
-      value: "+49 176 83041870"
-    - name: Address
-      value: "Richard-Strauss-Str. 17, 81677 Munich, Germany"
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
     - name: Languages
-      value: Spanish (native), German (C2), English (fluent)
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: M.Sc. Data Engineering and Analytics
-      institution: Technical University of Munich (TUM), Munich, Germany
-      year: 2024-present
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Focus — Machine Learning.
-    - title: B.Sc. Computer Science (Major) & History (Minor)
-      institution: LMU Munich, Munich, Germany
-      year: 2020-2024
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - Bachelor's thesis on uncertainty quantification in neural networks.
-        - Focus — Machine Learning and AI.
-    - title: B.Sc. Economics
-      institution: LMU Munich, Munich, Germany
-      year: 2017-2020
-      description:
-        - Bachelor's thesis in the Department for Economic History.
-        - Focus — Econometrics and Development Economics.
-    - title: German High School (Abitur)
-      institution: Deutsche Schule Mexiko-Stadt, Mexico City, Mexico
-      year: 2015-2017
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Assistant
-      institution: Max Planck Institute for Innovation and Competition, Munich, Germany
-      year: 10/2023-present
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - Open-source development for Python packages (sprynger, pybliometrics, pubmed_parser).
-    - title: Data Scientist (The Garage)
-      institution: Deloitte, Munich, Germany
-      year: 09/2021-09/2023
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - Data quality management for an NLP solution for strategy consulting.
-        - Automated analysis of SAP data for consulting projects.
-    - title: Research Assistant
-      institution: Max Planck Institute for Innovation and Competition, Munich, Germany
-      year: 09/2020-09/2021
-      description:
-        - Python-based data analysis related to the chemical industry.
-        - Pre-processing of historical patent and financial data.
-    - title: Intern
-      institution: German Federal Ministry of Finance, Berlin, Germany
-      year: 08/2019-10/2019
-      description:
-        - Economic analysis for internal consulting projects.
-        - Country reports for international meetings.
+        - Description 1.
+        - Description 2.
 
-- title: Volunteering
-  type: time_table
-  contents:
-    - title: Python Teacher (Intermediate Course)
-      institution: ReDI School, Munich, Germany
-      year: 09/2022-present
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/nils-herrmann/sprynger">sprynger</a>
-      year: 2025-now
-      description: API wrapper for Springer Nature.
-    - title: <a href="https://github.com/pybliometrics-dev/pybliometrics">pybliometrics</a>
-      year: contributor
-      description: Python library for Scopus data access (contributions).
-    - title: <a href="https://github.com/titipata/pubmed_parser">pubmed_parser</a>
-      year: contributor
-      description: Utilities to parse PubMed and PubMed Central data (contributions).
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2024-present
+    - year: 1921
       items:
-        - TUM Deutschlandstipendium (Merit Scholarship)
-
-- title: Publications & Links
-  type: list
-  contents:
-    - <a href="https://doi.org/10.1016/j.softx.2025.102186">sprynger — SoftwareX (2025)</a>
-    - <a href="https://github.com/nils-herrmann/sprynger">GitHub — sprynger</a>
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
+      items:
+        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Machine Learning
+    - title: Topic 1.
       items:
-        - Machine Learning
-        - Open-source library development
-    - title: Data Engineering & Analytics
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
       items:
-        - Data processing, analysis, and visualization
-        - Large-scale bibliometrics & scientific text mining
+        - Description 1.
+        - Description 2.
 
-- title: Software Skills
+- title: Other Interests
   type: list
   contents:
-    - Python (CV/DL, OSS dev, data processing/analysis/visualization); Java (OOP); C/C++ (basics); SQL; LaTeX; MS Office & iWork
-    
-- title: Other
-  type: list
-  contents:
-    - Preferred contact — email
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
